@@ -1,0 +1,52 @@
+/* Simple, rubric-matching styles */
+
+/* Body: white bg, serif font, 11pt, #404040 text */
+body {
+  background: #ffffff;
+  color: #404040;
+  font-family: Georgia, Garamond, serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  margin: 16px;
+}
+
+/* Links use heading color */
+a { color: #A4A400; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Headings: underlined; H1 centered bold 22pt; H2 left normal 18pt */
+h1, h2 {
+  color: #A4A400;
+  text-decoration: underline;
+  margin: 0.75em 0 0.4em;
+}
+h1 { text-align: center; font-weight: bold; font-size: 22pt; }
+h2 { text-align: left; font-weight: normal; font-size: 18pt; }
+
+/* Image + caption */
+figure { margin: 1em auto; max-width: 720px; }
+img { display: block; max-width: 100%; height: auto; }
+figcaption { text-align: center; font-style: italic; margin-top: 0.4em; }
+
+/* Lists */
+ol, ul { padding-left: 20px; }
+
+/* Testimonial: italic, indented, yellow bg */
+blockquote {
+  font-style: italic;
+  background: #FFFFA8;
+  margin: 1em 0 1em 24px; /* indent */
+  padding: 10px 12px;
+  border-left: 4px solid #A4A400;
+  max-width: 720px;
+}
+
+/* Noticeable but simple Home button */
+.home-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #A4A400;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
